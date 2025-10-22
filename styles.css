@@ -1160,6 +1160,13 @@ textarea:focus-visible {
 /* ===========================
    Responsive Design
    =========================== */
+/* Hide desktop line break on mobile */
+@media (max-width: 767px) {
+    .desktop-break {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
